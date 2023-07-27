@@ -133,7 +133,7 @@
     <ClInclude Include="HeaderDoctor.h" />
     <ClInclude Include="HeaderHospital.h" />
     <ClInclude Include="HeaderNurse.h" />
-    <ClInclude Include="HeaderPatient.h" />
+    <ClInclude Include="HeaderVisitCard.h" />
     <ClInclude Include="HeaderReasercher.h" />
     <ClInclude Include="HeaderReserch.h" />
   </ItemGroup>
@@ -145,7 +145,7 @@
     <ClCompile Include="Hospital.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Nurse.cpp" />
-    <ClCompile Include="Patient.cpp" />
+    <ClCompile Include="VisitCard.cpp" />
     <ClCompile Include="Reserch.cpp" />
     <ClCompile Include="Resercher.cpp" />
   </ItemGroup>
