@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="HeaderArticle.h" />
+    <ClInclude Include="HeaderDate.h" />
     <ClInclude Include="HeaderDepartment.h" />
     <ClInclude Include="HeaderDoctor.h" />
     <ClInclude Include="HeaderHospital.h" />
@@ -138,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Article.cpp" />
+    <ClCompile Include="date.cpp" />
     <ClCompile Include="Department.cpp" />
     <ClCompile Include="Doctor.cpp" />
     <ClCompile Include="Hospital.cpp" />

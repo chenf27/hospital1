@@ -39,6 +39,9 @@
     <ClInclude Include="HeaderPatient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HeaderDate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hospital.cpp">
@@ -66,6 +69,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Patient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="date.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
