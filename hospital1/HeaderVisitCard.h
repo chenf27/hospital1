@@ -1,6 +1,5 @@
 #pragma once
 
-
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -11,7 +10,7 @@ class VisitCard
 {
 
 public:
-	VisitCard(const char* name, int age, int exp);
+	VisitCard(const char* name, int id, int birthYear);
 	VisitCard(const VisitCard&);//= delete // OR: declare in the private
 	VisitCard(VisitCard&&);// = delete
 	~VisitCard();

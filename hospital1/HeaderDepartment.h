@@ -2,6 +2,7 @@
 
 #include "HeaderNurse.h"
 #include "HeaderDoctor.h"
+#include "HeaderPatient.h"
 
 
 class Department
@@ -36,5 +37,7 @@ private:
 	Doctor** m_allDoctors;
 	int	m_maxDoctors;
 	int	m_currentNumOfDoctor;
+
+	Patient** m_allPatients;
 
 };

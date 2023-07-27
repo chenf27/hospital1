@@ -1,17 +1,17 @@
 #pragma once
 
-#include "HeaderArticle.h"
+#include "HeaderResearcher.h"
 
-class Resercher
+class Research
 {
 public:
-	Resercher(int maxSurvivors);
-	Resercher(const Resercher&);// = delete
-	Resercher(Resercher&&);// = delete
-	~Resercher();
+	Research(int maxSurvivors);
+	Research(const Research&);// = delete
+	Research(Research&&);// = delete
+	~Research();
 
 public:
-	bool addArticle(Article& newArticle);
+	bool addResearcher(Researcher& newReasercher);
 
 	inline Article** getAllArticles();
 	inline int getMaxArticles() const { return m_maxArticles; }
